@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Contact () {
+export default class Contact extends React.Component{ 
+    render() {
     return(
-        <div>This is the contact page!</div>
-    );
-}
+    <div>
+        <h1>This is the contact page!</h1>
+    </div>
+    )
+    }
 
-export default Contact;
+}

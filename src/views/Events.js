@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Events () {
+export default class Events extends React.Component{ 
+    render() {
     return(
-        <div>This is the events page!</div>
-    );
-}
+    <div>
+        <h1>This is the events page!</h1>
+    </div>
+    )
+    }
 
-export default Events;
+}

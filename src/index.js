@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Home from './views/Home.js';
+import Events from './views/Events.js';
+import Exec from './views/Exec.js';
+import Contact from './views/Contact.js';
 import 'semantic-ui-css/semantic.min.css'
+import { Router, Route, IndexRoute, hashHistory } from "react-router";
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-// serviceWorker.unregister();
+ReactDOM.render(
+<Router history={hashHistory}>
+    <Route path="/" component={Home}>
+        <Route path="events" component={Events}></Route>
+        <Route path="exec" component={Exec}></Route>
+        <Route path="contact" component={Contact}></Route>
+    </Route>
+</Router>, 
+document.getElementById('root'));

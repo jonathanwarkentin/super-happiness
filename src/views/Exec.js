@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Exec () {
+export default class Exec extends React.Component{ 
+    render() {
     return(
-        <div>This is the exec page!</div>
-    );
-}
+    <div>
+        <h1>This is the exec page!</h1>
+    </div>
+    )
+    }
 
-export default Exec;
+}

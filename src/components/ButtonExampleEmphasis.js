@@ -1,11 +1,16 @@
 import React from 'react'
 import { Button } from 'semantic-ui-react';
+import { Link } from "react-router";
 
-const ButtonExampleEmphasis = () => (
+export default class ButtonExampleEmphasis extends React.Component{ 
+    render() {
+    return(
     <div>
-        <Button primary>Primary</Button>
-        <Button secondary>Secondary</Button>
+        <Link to="contact"><Button primary>Contact</Button></Link>
+        <Link to="events"><Button secondary>Events</Button></Link>
+        {this.props.children}
     </div>
-)
+    )
+    }
 
-export default ButtonExampleEmphasis
+}
