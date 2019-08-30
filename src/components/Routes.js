@@ -12,6 +12,7 @@ import './Routes.css'
 const Routes = () => {
     return (
         <div>
+
             <Container>
                 <NavBar />
                 <Card id="card">

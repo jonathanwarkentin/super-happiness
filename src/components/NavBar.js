@@ -8,25 +8,25 @@ const NavBar = () => {
     return (
         <Menu id="navbar" size="massive">
             <Link to="/">
-                <Menu.Item link>
+                <Menu.Item className="menu-item" link>
                     <img id="logo" src={logo} alt="DON'T PANIC! Logo" />
                 </Menu.Item>
             </Link>
 
             <Link to="/exec">
-                <Menu.Item link>
+                <Menu.Item className="menu-item" link>
                     E-Board
                 </Menu.Item>
             </Link>
 
             <Link to="/events">
-                <Menu.Item link>
+                <Menu.Item className="menu-item" link>
                     Events
                 </Menu.Item>
             </Link>
 
             <Link to="contact">
-                <Menu.Item link>
+                <Menu.Item className="menu-item" link>
                     Contact
                 </Menu.Item>
             </Link>
