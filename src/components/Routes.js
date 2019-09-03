@@ -6,8 +6,8 @@ import Exec from "../views/Exec";
 import Contact from "../views/Contact";
 import NotFound from "../views/NotFound";
 import NavBar from "./NavBar"
-import { Container, Card } from "semantic-ui-react";
-import './Routes.css'
+import { Container } from "semantic-ui-react"
+import About from "../views/About"
 
 const Routes = () => {
     return (
@@ -15,17 +15,14 @@ const Routes = () => {
 
             <Container>
                 <NavBar />
-                <Card id="card">
-                    <Card.Content>
-                        <Switch>
-                            <Route exact path="/" component={Home} />
-                            <Route path="/exec" component={Exec} />
-                            <Route path="/events" component={Events} />
-                            <Route path="/contact" component={Contact} />
-                            <Route component={NotFound} />
-                        </Switch>
-                    </Card.Content>
-                </Card>
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/about" component={About} />
+                    <Route path="/events" component={Events} />
+                    <Route path="/exec" component={Exec} />
+                    <Route path="/contact" component={Contact} />
+                    <Route component={NotFound} />
+                </Switch>
             </Container>
         </div>);
 }
