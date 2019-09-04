@@ -1,23 +1,34 @@
 import React from "react"
 import { Menu } from "semantic-ui-react"
+import { Link } from "react-router-dom"
 
 const NavBar = () => {
     return (
         <Menu borderless widths={5}>
             <Menu.Item>
-                Home
+                <Link to="/">
+                    Home
+                </Link>
             </Menu.Item>
             <Menu.Item>
-                About
+                <Link to="/about">
+                    About
+                </Link>
             </Menu.Item>
             <Menu.Item>
-                Events
+                <Link to="/events">
+                    Events
+                </Link>
             </Menu.Item>
             <Menu.Item>
-                Exec
+                <Link to="/exec">
+                    Executive Board
+                </Link>
             </Menu.Item>
             <Menu.Item>
-                Contact
+                <Link to="/contact">
+                    Contact
+                </Link>
             </Menu.Item>
         </Menu >
     );

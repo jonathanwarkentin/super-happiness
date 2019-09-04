@@ -4,7 +4,7 @@ export default class Contact extends React.Component {
     render() {
         return (
             <div>
-                <h1>Welcome to the DON'T PANIC! Home page!</h1>
+                <h1>DON'T PANIC! Home page under construction.</h1>
             </div>
         )
     }
