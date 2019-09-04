@@ -9,11 +9,14 @@ import NavBar from "./NavBar"
 import { Container } from "semantic-ui-react"
 import About from "../views/About"
 
+const containerStyle = {
+    width: '85vw'
+}
+
 const Routes = () => {
     return (
         <div>
-
-            <Container>
+            <Container style={containerStyle}>
                 <NavBar />
                 <Switch>
                     <Route exact path="/" component={Home} />

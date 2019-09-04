@@ -1,33 +1,41 @@
 import React from "react"
-import { Menu } from "semantic-ui-react"
+import { Menu, Header } from "semantic-ui-react"
 import { Link } from "react-router-dom"
+import logo from "../img/logo.png"
+import "./NavBar.css"
+
+const navStyle = {
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'space-between'
+}
 
 const NavBar = () => {
     return (
-        <Menu borderless widths={5}>
+        <Menu borderless style={navStyle}>
             <Menu.Item>
                 <Link to="/">
-                    Home
+                    <img id="logo" src={logo} alt="DON'T PANIC! Logo" />
                 </Link>
             </Menu.Item>
             <Menu.Item>
-                <Link to="/about">
-                    About
+                <Link className='nav-item' to="/about">
+                    ABOUT
                 </Link>
             </Menu.Item>
             <Menu.Item>
-                <Link to="/events">
-                    Events
+                <Link className='nav-item' to="/events">
+                    EVENTS
                 </Link>
             </Menu.Item>
             <Menu.Item>
-                <Link to="/exec">
-                    Executive Board
+                <Link className='nav-item' to="/exec">
+                    EXECUTIVE BOARD
                 </Link>
             </Menu.Item>
             <Menu.Item>
-                <Link to="/contact">
-                    Contact
+                <Link className='nav-item' to="/contact">
+                    CONTACT
                 </Link>
             </Menu.Item>
         </Menu >
