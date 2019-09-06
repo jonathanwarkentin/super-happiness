@@ -7,7 +7,9 @@ import "./NavBar.css"
 const navStyle = {
     width: '100%',
     display: 'flex',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    borderWidth: '0px',
+    boxShadow: 'none'
 }
 
 const NavBar = () => {

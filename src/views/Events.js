@@ -7,6 +7,8 @@ export default class Events extends React.Component {
             <div>
                 <Header as='h1'>EVENTS</Header>
                 <List bulleted>
+                    <strong>Meetings</strong>
+                    <br />
                     <List.Item>
                         <i>Wednesday, September 4, 2019 from 5-6 in Doyle Hall 001</i>
                         <br />
@@ -49,9 +51,9 @@ export default class Events extends React.Component {
                         End of the year celebration & free stuff day! Food, drinks, and good times to send off the end of a good year. We are also giving away merch from our company partners as well as our own merch! Thank you all for a great and successful year!
                     </List.Item>
                     <br />
+                    <strong>Other Events</strong>
+                    <br />
                     <List.Item>
-                        <strong>Other Events</strong>
-                        <br />
                         Hackathons and inter-school events TBA
                     </List.Item>
                 </List>
