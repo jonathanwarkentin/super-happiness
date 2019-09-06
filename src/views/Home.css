@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900&display=swap');
+
+h1 {
+    font-weight: 900;
+}
+
+span {
+    font-weight: 900;
+}
+
+#home-text {
+    margin-top: 4vh;
+}
+
+#welcome-to {
+    color: black;
+    font-size: 10vh;
+    line-height: 10vh;
+}
+
+#loyola {
+    color: #a40047;
+    font-size: 16vh;
+    line-height: 16vh;
+}
+
+#university {
+    color: #e7af12;
+    font-size: 16vh;
+    line-height: 16vh;
+}
+
+#chicago-coding {
+    line-height: 16vh;
+}
+
+#chicago {
+    color: #a40047;
+    font-size: 16vh;
+    line-height: 16vh;
+}
+
+#coding {
+    color: black;
+    font-size: 20vh;
+    float: right;
+}
+
+#community {
+    color: black;
+    font-size: 20vh;
+    line-height: 16vh;
+    float: right;
+}

@@ -10,7 +10,7 @@ import { Container } from "semantic-ui-react"
 import About from "../views/About"
 
 const containerStyle = {
-    width: '85vw'
+    width: '82.5vw'
 }
 
 const Routes = () => {
