@@ -1,0 +1,36 @@
+* {
+    color: black;
+}
+
+#exec-grid {
+    width: 100%;
+}
+
+#exec-title {
+    font-size: 7vh;
+    font-weight: 900;
+}
+
+.board-member {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.headshot {
+    width: 12vw;
+    object-fit: cover;
+}
+
+.member-card {
+    max-width: 12vw !important;
+}
+
+.member-name {
+    text-align: center;
+}
+
+.grid-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
