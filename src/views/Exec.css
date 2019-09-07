@@ -17,12 +17,13 @@
 }
 
 .headshot {
-    width: 12vw;
+    width: 14vw;
+    height: 25vh;
     object-fit: cover;
 }
 
 .member-card {
-    max-width: 12vw !important;
+    max-width: 14vw !important;
 }
 
 .member-name {

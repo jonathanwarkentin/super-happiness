@@ -2,6 +2,10 @@ import React from 'react';
 import { Grid, Image, Card } from 'semantic-ui-react'
 import './Exec.css'
 import lucas from '../img/Lucas.jpg'
+import martin from '../img/MartinZ.jpg'
+import paulina from '../img/Paulina.jpg'
+import jonathan from '../img/Jonathan.jpg'
+import genericAvatar from '../img/generic-avatar.jpg'
 
 export default class Exec extends React.Component {
     render() {
@@ -20,27 +24,27 @@ export default class Exec extends React.Component {
                         </Grid.Column>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
-                                <Image className='headshot' src={lucas} />
+                                <Image className='headshot' src={martin} />
                                 <Card.Content className='member-card'>
-                                    <Card.Header className='member-name'>Lucas Perez</Card.Header>
+                                    <Card.Header className='member-name'>Martin Zugschwert</Card.Header>
 
                                 </Card.Content>
                             </Card>
                         </Grid.Column>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
-                                <Image className='headshot' src={lucas} />
+                                <Image className='headshot' src={genericAvatar} />
                                 <Card.Content className='member-card'>
-                                    <Card.Header className='member-name'>Lucas Perez</Card.Header>
+                                    <Card.Header className='member-name'>Linette Maliakal</Card.Header>
 
                                 </Card.Content>
                             </Card>
                         </Grid.Column>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
-                                <Image className='headshot' src={lucas} />
+                                <Image className='headshot' src={genericAvatar} />
                                 <Card.Content className='member-card'>
-                                    <Card.Header className='member-name'>Lucas Perez</Card.Header>
+                                    <Card.Header className='member-name'>Spencer Johnston</Card.Header>
 
                                 </Card.Content>
                             </Card>
@@ -49,27 +53,27 @@ export default class Exec extends React.Component {
                     <Grid.Row className='grid-row' columns={3}>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
-                                <Image className='headshot' src={lucas} />
+                                <Image className='headshot' src={genericAvatar} />
                                 <Card.Content className='member-card'>
-                                    <Card.Header className='member-name'>Lucas Perez</Card.Header>
+                                    <Card.Header className='member-name'>Makenna Walsh</Card.Header>
 
                                 </Card.Content>
                             </Card>
                         </Grid.Column>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
-                                <Image className='headshot' src={lucas} />
+                                <Image className='headshot' src={jonathan} />
                                 <Card.Content className='member-card'>
-                                    <Card.Header className='member-name'>Lucas Perez</Card.Header>
+                                    <Card.Header className='member-name'>Jonathan Warkentin</Card.Header>
 
                                 </Card.Content>
                             </Card>
                         </Grid.Column>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
-                                <Image className='headshot' src={lucas} />
+                                <Image className='headshot' src={paulina} />
                                 <Card.Content className='member-card'>
-                                    <Card.Header className='member-name'>Lucas Perez</Card.Header>
+                                    <Card.Header className='member-name'>Paulina Adamski</Card.Header>
 
                                 </Card.Content>
                             </Card>
