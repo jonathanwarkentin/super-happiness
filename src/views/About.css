@@ -1,0 +1,21 @@
+#about-div {
+    margin-top: 2vh;
+}
+
+#grid {
+    width: 100%;
+}
+
+#title {
+    font-size: 7vh;
+    font-weight: 900;
+}
+
+#text-column {
+    padding-top: 1.5vh;
+    padding-right: 4vw;
+}
+
+.about-text {
+    font-size: 1.5em;
+}

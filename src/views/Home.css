@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:900&display=swap');
+* {
+    color: black;
+}
 
 h1 {
     font-weight: 900;
@@ -9,7 +11,7 @@ span {
 }
 
 #home-text {
-    margin-top: 4vh;
+    margin-top: 5vh;
 }
 
 #welcome-to {

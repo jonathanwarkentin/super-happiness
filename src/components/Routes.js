@@ -8,6 +8,7 @@ import NotFound from "../views/NotFound";
 import NavBar from "./NavBar"
 import { Container } from "semantic-ui-react"
 import About from "../views/About"
+import './Routes.css'
 
 const containerStyle = {
     width: '82.5vw'
