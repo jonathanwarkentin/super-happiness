@@ -5,7 +5,9 @@ import lucas from '../img/Lucas.jpg'
 import martin from '../img/MartinZ.jpg'
 import paulina from '../img/Paulina.jpg'
 import jonathan from '../img/Jonathan.jpg'
-import genericAvatar from '../img/generic-avatar.jpg'
+import spencer from '../img/Spencer.jpg'
+import linette from '../img/Linette.jpg'
+import makenna from '../img/Makenna.jpg'
 
 export default class Exec extends React.Component {
     render() {
@@ -33,7 +35,7 @@ export default class Exec extends React.Component {
                         </Grid.Column>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
-                                <Image className='headshot' src={genericAvatar} />
+                                <Image className='headshot' src={linette} />
                                 <Card.Content className='member-card'>
                                     <Card.Header className='member-name'>Linette Maliakal</Card.Header>
 
@@ -42,7 +44,7 @@ export default class Exec extends React.Component {
                         </Grid.Column>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
-                                <Image className='headshot' src={genericAvatar} />
+                                <Image id='spencer-headshot' className='headshot' src={spencer} />
                                 <Card.Content className='member-card'>
                                     <Card.Header className='member-name'>Spencer Johnston</Card.Header>
 
@@ -53,7 +55,7 @@ export default class Exec extends React.Component {
                     <Grid.Row className='grid-row' columns={3}>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
-                                <Image className='headshot' src={genericAvatar} />
+                                <Image className='headshot' src={makenna} />
                                 <Card.Content className='member-card'>
                                     <Card.Header className='member-name'>Makenna Walsh</Card.Header>
                                 </Card.Content>

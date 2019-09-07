@@ -12,12 +12,7 @@ export default class About extends React.Component {
                     <Grid.Row>
                         <Grid.Column id='text-column' width={8}>
                             <p className='about-text'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus natus odio impedit beatae omnis quaerat asperiores delectus illum maiores eos veritatis, nesciunt pariatur sint. Aliquam vero labore repudiandae error ab.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, soluta quibusdam similique magnam nesciunt voluptates! Unde aliquam consectetur nesciunt delectus ratione doloribus fuga doloremque officia! Necessitatibus temporibus laboriosam ipsa similique!
-                            </p>
-                            <p className="about-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ratione quo iste facilis enim laudantium inventore maxime sint, magni, sit quod corporis libero. Repudiandae sapiente voluptatibus vel. Recusandae, eum hic!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                DON'T PANIC! was started in the Fall of 2018 with the goal of uniting students from all the disciplines in the Loyola coding community. Our aim since the beginning has been to create a community of people who have a passion and drive to learn and make friends. We aim to serve our community in a variety of ways; first being relaxed meetings where we get together and discuss important topics in the Computer Science field, second being events where we go out and interact with the larger Chicago Coding community, and finally through our Slack channel, where we discuss anything and everything.
                             </p>
                         </Grid.Column>
                         <Grid.Column width={8}>

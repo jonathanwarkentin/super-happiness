@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Image, Button, Form, Message, TextArea } from 'semantic-ui-react'
+import { Grid, Image, Button, Form, TextArea } from 'semantic-ui-react'
 import csAward from '../img/csaward.jpg'
 import './Contact.css'
 
@@ -15,7 +15,7 @@ export default class Contact extends React.Component {
                         <Grid.Column id='form-column' width={8}>
                             <h1 id='contact-title'>CONTACT US</h1>
                             <p id='contact-text'>
-                                Let's stay in touch! <br />  Fill in the form below and we'll get back to you ASAP.
+                                Are you looking for a place with CS folks that like to geek out, learn some CS, make friends, and be in a judgment free zone and a helpful environment? Look no further. Just fill in the form below and we'll get back to you ASAP.
                             </p>
                             <Form id="form" action="https://formspree.io/dontpanic.luc@gmail.com" method="POST">
                                 <Form.Field required>
@@ -27,13 +27,6 @@ export default class Contact extends React.Component {
                                 <TextArea name="message" required placeholder='Message' />
                                 <Button id='submit' type='submit'>Submit</Button>
                             </Form>
-                            {/* this.state.submitted &&
-                                <Message id='success-message'
-                                    success
-                                    header='Form Completed'
-                                    content="Thanks for your message!"
-                                /> */
-                            }
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

@@ -54,3 +54,8 @@ span {
     line-height: 16vh;
     float: right;
 }
+
+#byte {
+    color: white;
+    font-weight: normal;
+}

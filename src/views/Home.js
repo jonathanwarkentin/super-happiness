@@ -14,6 +14,8 @@ export default class Contact extends React.Component {
                 <span id='chicago-coding'><span id='chicago'>CHICAGO'S</span><span id='coding'>CODING</span></span>
                 <br />
                 <span id='community'>COMMUNITY</span>
+                <br />
+                <span id='byte'>We might just byte you, though. Got it? Byte. Ha haha hahahaha.</span>
             </div>
         )
     }
