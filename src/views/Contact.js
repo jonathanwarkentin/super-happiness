@@ -4,18 +4,7 @@ import csAward from '../img/csaward.jpg'
 import './Contact.css'
 
 export default class Contact extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = { submitted: false }
-    }
-
-    handleSubmit = () => {
-        this.setState({ submitted: true })
-        document.getElementById('form').reset()
-    }
-
     render() {
-
         return (
             <div id='contact-div'>
                 <Grid id='contact-grid'>
@@ -28,7 +17,7 @@ export default class Contact extends React.Component {
                             <p id='contact-text'>
                                 Let's keep in touch! <br />  Fill in the form below and we'll get back to you ASAP.
                             </p>
-                            <Form id="form" action="https://formspree.io/dontpanic.luc@gmail.com" method="POST" onSubmit={this.handleSubmit}>
+                            <Form id="form" action="https://formspree.io/dontpanic.luc@gmail.com" method="POST">
                                 <Form.Field required>
                                     <Form.Input name="name" type="text" placeholder='Name' />
                                 </Form.Field>
