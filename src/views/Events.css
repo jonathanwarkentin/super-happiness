@@ -1,0 +1,27 @@
+* {
+    color: black;
+}
+
+#events-grid {
+    width: 100%;
+}
+
+#events-title {
+    font-size: 7vh;
+    font-weight: 900;
+    float: right;
+}
+
+#list-column {
+    padding-top: 1.5vh;
+    padding-left: 4vw;
+    text-align: right;
+    float: right;
+    height: 62.5vh;
+    overflow-y: scroll;
+    font-size: 1.5em;
+}
+
+.past {
+    text-decoration: line-through;
+}

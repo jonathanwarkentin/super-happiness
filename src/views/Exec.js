@@ -56,7 +56,6 @@ export default class Exec extends React.Component {
                                 <Image className='headshot' src={genericAvatar} />
                                 <Card.Content className='member-card'>
                                     <Card.Header className='member-name'>Makenna Walsh</Card.Header>
-
                                 </Card.Content>
                             </Card>
                         </Grid.Column>

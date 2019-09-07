@@ -15,7 +15,7 @@ export default class Contact extends React.Component {
                         <Grid.Column id='form-column' width={8}>
                             <h1 id='contact-title'>CONTACT US</h1>
                             <p id='contact-text'>
-                                Let's keep in touch! <br />  Fill in the form below and we'll get back to you ASAP.
+                                Let's stay in touch! <br />  Fill in the form below and we'll get back to you ASAP.
                             </p>
                             <Form id="form" action="https://formspree.io/dontpanic.luc@gmail.com" method="POST">
                                 <Form.Field required>
