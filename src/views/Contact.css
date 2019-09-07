@@ -12,6 +12,10 @@
     justify-content: center;
 }
 
+#form-column {
+    padding-left: 4vw;
+}
+
 #contact-title {
     font-size: 7vh;
     font-weight: 900;
@@ -19,7 +23,20 @@
     line-height: 4vh;
 }
 
+#contact-text {
+    margin-top: 1em;
+    font-size: 1.5em;
+    float: right;
+    text-align: right;
+    margin-bottom: 1.5em;
+}
+
 #cs-award {
     width: 65%;
     height: auto;
+}
+
+#submit {
+    width: 100%;
+    margin-top: 2vh;
 }
