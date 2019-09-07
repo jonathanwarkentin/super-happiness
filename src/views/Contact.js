@@ -28,22 +28,22 @@ export default class Contact extends React.Component {
                             <p id='contact-text'>
                                 Let's keep in touch! <br />  Fill in the form below and we'll get back to you ASAP.
                             </p>
-                            <Form id="form" onSubmit={this.handleSubmit}>
+                            <Form id="form" action="https://formspree.io/dontpanic.luc@gmail.com" method="POST" onSubmit={this.handleSubmit}>
                                 <Form.Field required>
-                                    <Form.Input type="text" placeholder='Name' />
+                                    <Form.Input name="name" type="text" placeholder='Name' />
                                 </Form.Field>
                                 <Form.Field required>
-                                    <Form.Input type="email" placeholder='Email' />
+                                    <Form.Input name="email" type="email" placeholder='Email' />
                                 </Form.Field>
-                                <TextArea required placeholder='Message' />
+                                <TextArea name="message" required placeholder='Message' />
                                 <Button id='submit' type='submit'>Submit</Button>
                             </Form>
-                            {this.state.submitted &&
+                            {/* this.state.submitted &&
                                 <Message id='success-message'
                                     success
                                     header='Form Completed'
                                     content="Thanks for your message!"
-                                />
+                                /> */
                             }
                         </Grid.Column>
                     </Grid.Row>
