@@ -7,8 +7,8 @@ export default class About extends React.Component {
     render() {
         return (
             <div id='about-div'>
-                <h1 id='title'>ABOUT</h1>
-                <Grid id='grid'>
+                <h1 id='about-title'>ABOUT</h1>
+                <Grid id='about-grid'>
                     <Grid.Row>
                         <Grid.Column id='text-column' width={8}>
                             <p className='about-text'>

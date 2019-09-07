@@ -1,12 +1,12 @@
-#about-div {
-    margin-top: 2vh;
+* {
+    color: black;
 }
 
-#grid {
+#about-grid {
     width: 100%;
 }
 
-#title {
+#about-title {
     font-size: 7vh;
     font-weight: 900;
 }
