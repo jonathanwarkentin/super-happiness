@@ -11,7 +11,11 @@ import About from "../views/About"
 import './Routes.css'
 
 const containerStyle = {
-    width: '82.5vw'
+    width: '82.5vw',
+    height: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
 }
 
 const Routes = () => {
@@ -19,7 +23,7 @@ const Routes = () => {
         <div>
             <Container style={containerStyle}>
                 <NavBar />
-                <Switch>
+                <Switch id='switch'>
                     <Route exact path="/" component={Home} />
                     <Route path="/about" component={About} />
                     <Route path="/events" component={Events} />

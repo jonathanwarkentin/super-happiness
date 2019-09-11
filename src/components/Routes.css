@@ -1,1 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:900&display=swap');
+
+#switch {
+    width: 100%;
+    height: 100%;
+}
