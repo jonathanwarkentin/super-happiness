@@ -12,10 +12,7 @@ import './Routes.css'
 
 const containerStyle = {
     width: '82.5vw',
-    height: '100vh',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'space-between'
+    height: '100vh'
 }
 
 const Routes = () => {
