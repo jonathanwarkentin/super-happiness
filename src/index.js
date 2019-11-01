@@ -9,7 +9,7 @@ const history = createBrowserHistory()
 console.log("See ya, Space Cowboy...")
 
 ReactDOM.render(
-    <Router history={history}>
+    <Router basename={process.env.PUBLIC_URL} history={history}>
         <Routes />
     </Router>,
     document.getElementById('root'));
