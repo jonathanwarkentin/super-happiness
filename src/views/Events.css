@@ -25,3 +25,9 @@
 .past {
     text-decoration: line-through;
 }
+
+@media (max-aspect-ratio: 1/1) {
+    #events-title {
+        float: left;
+    }
+}
