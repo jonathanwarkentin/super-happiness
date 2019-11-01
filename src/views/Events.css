@@ -30,4 +30,8 @@
     #events-title {
         float: left;
     }
+
+    #mobile-list {
+        font-size: 1.25em;
+    }
 }

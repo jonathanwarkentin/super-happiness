@@ -15,7 +15,6 @@ export default class Events extends React.Component {
                         </Grid.Column>
                         <Grid.Column id='list-column' width={8}>
                             <List bulleted>
-                                <h2>Meetings</h2>
                                 <List.Item className='past'>
                                     <i>Wednesday, September 4, 2019 from 5-6 in Doyle Hall 001</i>
                                     <br />
@@ -58,10 +57,6 @@ export default class Events extends React.Component {
                                     End of the year celebration & free stuff day! Food, drinks, and good times to send off the end of a good year. We are also giving away merch from our company partners as well as our own merch! Thank you all for a great and successful year!
                                 </List.Item>
                                 <br />
-                                <h2>Other Events</h2>
-                                <List.Item>
-                                    Hackathons and inter-school events TBA
-                                </List.Item>
                             </List>
                         </Grid.Column>
                     </Grid.Row>
@@ -69,8 +64,7 @@ export default class Events extends React.Component {
                 <Responsive {...Responsive.onlyMobile} as='div'>
                     <Image src={hackathonGroup} />
                     <br />
-                    <List bulleted>
-                        <h2>Meetings</h2>
+                    <List bulleted id="mobile-list">
                         <List.Item className='past'>
                             <i>Wednesday, September 4, 2019 from 5-6 in Doyle Hall 001</i>
                             <br />
@@ -111,10 +105,6 @@ export default class Events extends React.Component {
                             <i>Wednesday, November 27, 2019 from 5-6 in Doyle Hall 001</i>
                             <br />
                             End of the year celebration & free stuff day! Food, drinks, and good times to send off the end of a good year. We are also giving away merch from our company partners as well as our own merch! Thank you all for a great and successful year!
-                        </List.Item>
-                        <h2>Other Events</h2>
-                        <List.Item>
-                            Hackathons and inter-school events TBA
                         </List.Item>
                     </List>
                     <br />
