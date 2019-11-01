@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Image, Button, Form, TextArea } from 'semantic-ui-react'
+import { Grid, Image, Button, Form, TextArea, Responsive } from 'semantic-ui-react'
 import csAward from '../img/csaward.jpg'
 import './Contact.css'
 
