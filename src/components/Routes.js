@@ -18,6 +18,7 @@ const containerStyle = {
 
 const containerMobileStyle = {
     width: '95vw',
+    overflowX: 'hidden',
     overflowY: 'visible'
 }
 
