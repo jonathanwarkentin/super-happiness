@@ -112,7 +112,6 @@ export default class Events extends React.Component {
                             <br />
                             End of the year celebration & free stuff day! Food, drinks, and good times to send off the end of a good year. We are also giving away merch from our company partners as well as our own merch! Thank you all for a great and successful year!
                         </List.Item>
-                        <br />
                         <h2>Other Events</h2>
                         <List.Item>
                             Hackathons and inter-school events TBA
