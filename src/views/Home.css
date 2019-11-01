@@ -65,8 +65,7 @@ span {
     #home-text {
         display: flex;
         justify-content: start;
-        align-content: center;
-        overflow: hidden;
+        overflow: visible;
     }
 
     #welcome-to {
