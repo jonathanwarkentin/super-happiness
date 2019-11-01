@@ -18,7 +18,7 @@ const containerStyle = {
 
 const containerMobileStyle = {
     width: '95vw',
-    overflow: 'scroll'
+    overflowY: 'visible'
 }
 
 const Routes = () => {
