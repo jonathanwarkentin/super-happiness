@@ -66,7 +66,7 @@ export default class Events extends React.Component {
                         </Grid.Column>
                     </Grid.Row>
                 </Responsive>
-                <Responsive as='div' {...Responsive.onlyMobile}>
+                <Responsive {...Responsive.onlyMobile} as='div'>
                     <Image src={hackathonGroup} />
                     <br />
                     <List bulleted>
