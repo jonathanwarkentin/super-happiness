@@ -16,7 +16,7 @@ const containerStyle = {
 }
 
 const containerMobileStyle = {
-    width: '95vw'
+    overflow: 'scroll';
 }
 
 const Routes = () => {
@@ -33,7 +33,7 @@ const Routes = () => {
                     <Route component={NotFound} />
                 </Switch>
             </Responsive>
-            <Responsive {...Responsive.onlyMobile} as='div'>
+            <Responsive {...Responsive.onlyMobile} as='div' style={containerMobileStyle}>
                 <Switch id='switch'>
                     <Route exact path="/" component={Home} />
                     <Route path="/about" component={About} />
