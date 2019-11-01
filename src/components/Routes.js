@@ -33,7 +33,7 @@ const Routes = () => {
                     <Route component={NotFound} />
                 </Switch>
             </Responsive>
-            <Responsive {...Responsive.onlyMobile} as={Container} style={containerMobileStyle}>
+            <Responsive {...Responsive.onlyMobile} as='div'>
                 <Switch id='switch'>
                     <Route exact path="/" component={Home} />
                     <Route path="/about" component={About} />
