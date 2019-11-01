@@ -40,3 +40,15 @@
     width: 100%;
     margin-top: 2vh;
 }
+
+@media (max-aspect-ratio: 1/1) {
+    #contact-title {
+        float: left;
+    }
+    
+    #contact-text {
+        float: left;
+        text-align: left;
+        margin-bottom: 1.5em;
+    }
+}
