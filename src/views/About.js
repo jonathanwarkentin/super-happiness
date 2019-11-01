@@ -23,9 +23,11 @@ export default class About extends React.Component {
                 </Responsive>
                 <Responsive {...Responsive.onlyMobile} as='div' id='about-div-mobile'>
                     <Image src={googleEvent} />
-                    <p className='about-text'>
+                    <br />
+                    <p className='about-text-mobile'>
                         DON'T PANIC! was started in the Fall of 2018 with the goal of uniting students from all the disciplines in the Loyola coding community. Our aim since the beginning has been to create a community of people who have a passion and drive to learn and make friends. We aim to serve our community in a variety of ways; first being relaxed meetings where we get together and discuss important topics in the Computer Science field, second being events where we go out and interact with the larger Chicago Coding community, and finally through our Slack channel, where we discuss anything and everything.
                     </p>
+                    <br />
                 </Responsive>
             </div>
         )
