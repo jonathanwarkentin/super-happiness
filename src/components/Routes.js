@@ -12,11 +12,12 @@ import './Routes.css'
 
 const containerStyle = {
     width: '82.5vw',
-    height: '100vh'
+    height: '100vh',
+    overflow: 'hidden'
 }
 
 const containerMobileStyle = {
-    overflow: 'scroll'
+    width: '95vw'
 }
 
 const Routes = () => {
