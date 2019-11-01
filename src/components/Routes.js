@@ -16,7 +16,7 @@ const containerStyle = {
 }
 
 const containerMobileStyle = {
-    overflow: 'scroll';
+    overflow: 'scroll'
 }
 
 const Routes = () => {
