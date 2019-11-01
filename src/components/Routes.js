@@ -22,7 +22,7 @@ const containerMobileStyle = {
 const Routes = () => {
     return (
         <div>
-            <Responsive minWidth={Responsive.onlyTablet.minWidth} as={Container} style={containerStyle}>
+            <Responsive {...Responsive.onlyComputer} as={Container} style={containerStyle}>
                 <NavBar />
                 <Switch id='switch'>
                     <Route exact path="/" component={Home} />
