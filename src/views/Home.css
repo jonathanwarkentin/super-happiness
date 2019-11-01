@@ -67,6 +67,8 @@ span {
         height: auto;
         display: flex;
         justify-content: start;
+        overflow-x: hidden;
+        overflow-y: visible;
     }
 
     #welcome-to {
