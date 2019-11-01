@@ -6,10 +6,8 @@ import { createBrowserHistory } from 'history'
 import 'semantic-ui-css/semantic.min.css'
 const history = createBrowserHistory()
 
-console.log("See ya, Space Cowboy...")
-
 ReactDOM.render(
-    <Router basename={process.env.PUBLIC_URL} history={history}>
+    <Router history={history}>
         <Routes />
     </Router>,
     document.getElementById('root'));
