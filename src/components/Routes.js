@@ -34,7 +34,7 @@ const Routes = () => {
                 </Switch>
             </Responsive>
             <Responsive {...Responsive.onlyMobile} as='div' style={containerMobileStyle}>
-                <Switch id='switch'>
+                <Switch id='switch' style={containerMobileStyle}>
                     <Route exact path="/" component={Home} />
                     <Route path="/about" component={About} />
                     <Route path="/events" component={Events} />
