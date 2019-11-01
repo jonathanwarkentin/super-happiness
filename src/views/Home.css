@@ -12,11 +12,13 @@ span {
 
 #home-text {
     /* margin-top: 2vw; */
-    width: 100%;
+    width: 86%;
     height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #welcome-to {
