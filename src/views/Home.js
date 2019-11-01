@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css'
 import { Responsive } from 'semantic-ui-react'
 
-export default class Contact extends React.Component {
+export default class Home extends React.Component {
     render() {
         return (
             <div id='home-text'>
@@ -14,10 +14,8 @@ export default class Contact extends React.Component {
                     {/* <Responsive as='br' minAspect={16 / 9} /> */}
                     <br />
                     <span id='chicago-coding'><span id='chicago'>CHICAGO'S</span><span id='coding'>CODING</span></span>
-                    <Responsive as='br' minAspect={16 / 9} />
+                    <Responsive as='br' {...Responsive.onlyMobile} />
                     <span id='community'>COMMUNITY</span>
-                    <br />
-                    <span id='byte'>We might just byte you, though. Got it? Byte. Ha haha hahahaha.</span>
                 </div>
             </div>
         )

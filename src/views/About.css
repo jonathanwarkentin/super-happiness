@@ -6,6 +6,11 @@
     width: 100%;
 }
 
+#about-div {
+    height: 75vh;
+    overflow-y: scroll;
+}
+
 #about-title {
     font-size: 7vh;
     font-weight: 900;

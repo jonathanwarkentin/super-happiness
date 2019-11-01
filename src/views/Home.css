@@ -61,11 +61,6 @@ span {
     float: right;
 }
 
-#byte {
-    color: white;
-    font-weight: normal;
-}
-
 @media (max-aspect-ratio: 1/1) {
     #home-text {
         justify-content: start;
