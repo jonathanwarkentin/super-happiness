@@ -63,10 +63,10 @@ span {
 
 @media (max-aspect-ratio: 1/1) {
     #home-text {
+        width: auto;
+        height: auto;
         display: flex;
         justify-content: start;
-        overflow-x: hidden;
-        overflow-y: visible;
     }
 
     #welcome-to {
