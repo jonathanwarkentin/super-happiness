@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/super-happiness/static/css/main.da2de83d.chunk.css",
+    "main.css": "/super-happiness/static/css/main.85323eac.chunk.css",
     "main.js": "/super-happiness/static/js/main.77a4c52f.chunk.js",
     "main.js.map": "/super-happiness/static/js/main.77a4c52f.chunk.js.map",
     "runtime~main.js": "/super-happiness/static/js/runtime~main.29546665.js",
@@ -9,10 +9,10 @@
     "static/js/2.5ec6dcf9.chunk.js": "/super-happiness/static/js/2.5ec6dcf9.chunk.js",
     "static/js/2.5ec6dcf9.chunk.js.map": "/super-happiness/static/js/2.5ec6dcf9.chunk.js.map",
     "index.html": "/super-happiness/index.html",
-    "precache-manifest.c584d4a22b8e9ca83ad03bfc35749d27.js": "/super-happiness/precache-manifest.c584d4a22b8e9ca83ad03bfc35749d27.js",
+    "precache-manifest.367170e3071373d3f5f8b53259013f14.js": "/super-happiness/precache-manifest.367170e3071373d3f5f8b53259013f14.js",
     "service-worker.js": "/super-happiness/service-worker.js",
     "static/css/2.235551b6.chunk.css.map": "/super-happiness/static/css/2.235551b6.chunk.css.map",
-    "static/css/main.da2de83d.chunk.css.map": "/super-happiness/static/css/main.da2de83d.chunk.css.map",
+    "static/css/main.85323eac.chunk.css.map": "/super-happiness/static/css/main.85323eac.chunk.css.map",
     "static/media/Jonathan.jpg": "/super-happiness/static/media/Jonathan.47415cda.jpg",
     "static/media/Linette.jpg": "/super-happiness/static/media/Linette.2a2ba379.jpg",
     "static/media/Lucas.jpg": "/super-happiness/static/media/Lucas.28facd62.jpg",
