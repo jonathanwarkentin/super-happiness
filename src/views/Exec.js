@@ -15,15 +15,7 @@ export default class Exec extends React.Component {
             <div id='exec-div'>
                 <h1 id='exec-title'>EXECUTIVE BOARD</h1>
                 <Grid id='exec-grid'>
-                    <Grid.Row className='grid-row' columns={4}>
-                        <Grid.Column className='board-member'>
-                            <Card className='member-card'>
-                                <Image className='headshot' src={lucas} />
-                                <Card.Content className='member-card'>
-                                    <Card.Header className='member-name'>Lucas Perez</Card.Header>
-                                </Card.Content>
-                            </Card>
-                        </Grid.Column>
+                    <Grid.Row className='grid-row' columns={3}>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
                                 <Image className='headshot' src={martin} />
@@ -44,23 +36,14 @@ export default class Exec extends React.Component {
                         </Grid.Column>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
-                                <Image id='spencer-headshot' className='headshot' src={spencer} />
-                                <Card.Content className='member-card'>
-                                    <Card.Header className='member-name'>Spencer Johnston</Card.Header>
-
-                                </Card.Content>
-                            </Card>
-                        </Grid.Column>
-                    </Grid.Row>
-                    <Grid.Row className='grid-row' columns={3}>
-                        <Grid.Column className='board-member'>
-                            <Card className='member-card'>
                                 <Image className='headshot' src={makenna} />
                                 <Card.Content className='member-card'>
                                     <Card.Header className='member-name'>Makenna Walsh</Card.Header>
                                 </Card.Content>
                             </Card>
                         </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row className='grid-row' columns={2}>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
                                 <Image className='headshot' src={jonathan} />
