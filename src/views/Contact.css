@@ -44,6 +44,7 @@
 @media (max-aspect-ratio: 1/1) {
     #contact-title {
         float: left;
+        padding-bottom: 1em;
     }
     
     #contact-text {
