@@ -74,6 +74,7 @@ export default class Exec extends React.Component {
                             </Card.Content>
                         </Card>
                     </div>
+                    <br />
                     <div className='grid-row'>
                         <Card className='member-card'>
                             <Image className='headshot' src={linette} />
@@ -82,6 +83,7 @@ export default class Exec extends React.Component {
                             </Card.Content>
                         </Card>
                     </div>
+                    <br />
                     <div className='grid-row'>
                         <Card className='member-card'>
                             <Image className='headshot' src={makenna} />
@@ -90,6 +92,7 @@ export default class Exec extends React.Component {
                             </Card.Content>
                         </Card>
                     </div>
+                    <br />
                     <div className='grid-row'>
                         <Card className='member-card'>
                             <Image className='headshot' src={jonathan} />
@@ -98,6 +101,7 @@ export default class Exec extends React.Component {
                             </Card.Content>
                         </Card>
                     </div>
+                    <br />
                     <div className='grid-row'>
                         <Card className='member-card'>
                             <Image className='headshot' src={paulina} />
