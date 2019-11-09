@@ -14,7 +14,7 @@ export default class Exec extends React.Component {
         return (
             <div id='exec-div'>
                 <h1 id='exec-title'>EXECUTIVE BOARD</h1>
-                <Grid id='exec-grid'>
+                <Responsive as={Grid} minWidth={Responsive.onlyTablet.minWidth} id='exec-grid'>
                     <Grid.Row className='grid-row' columns={3}>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
@@ -63,7 +63,40 @@ export default class Exec extends React.Component {
                             </Card>
                         </Grid.Column>
                     </Grid.Row>
-                </Grid>
+                </Responsive>
+
+                <Responsive {...Responsive.onlyMobile} as='div'>
+                    <Card className='member-card'>
+                        <Image className='headshot' src={martin} />
+                        <Card.Content className='member-card'>
+                            <Card.Header className='member-name'>Martin Zugschwert</Card.Header>
+                        </Card.Content>
+                    </Card>
+                    <Card className='member-card'>
+                        <Image className='headshot' src={linette} />
+                        <Card.Content className='member-card'>
+                            <Card.Header className='member-name'>Linette Maliakal</Card.Header>
+                        </Card.Content>
+                    </Card>
+                    <Card className='member-card'>
+                        <Image className='headshot' src={makenna} />
+                        <Card.Content className='member-card'>
+                            <Card.Header className='member-name'>Makenna Walsh</Card.Header>
+                        </Card.Content>
+                    </Card>
+                    <Card className='member-card'>
+                        <Image className='headshot' src={jonathan} />
+                        <Card.Content className='member-card'>
+                            <Card.Header className='member-name'>Jonathan Warkentin</Card.Header>
+                        </Card.Content>
+                    </Card>
+                    <Card className='member-card'>
+                        <Image className='headshot' src={paulina} />
+                        <Card.Content className='member-card'>
+                            <Card.Header className='member-name'>Paulina Adamski</Card.Header>
+                        </Card.Content>
+                    </Card>
+                </Responsive>
             </div>
         )
     }

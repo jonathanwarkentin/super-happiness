@@ -35,3 +35,14 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-aspect-ratio: 1/1) {
+    .headshot {
+        width: 90%;
+        height: auto;
+    }
+
+    .member-card {
+        max-width: 90% !important;
+    }
+}
