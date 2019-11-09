@@ -65,32 +65,40 @@ export default class Exec extends React.Component {
                     </Grid.Row>
                 </Responsive>
 
-                <Responsive {...Responsive.onlyMobile} as='div' id='exec-div-mobile'>
-                    <div>
+                <Responsive {...Responsive.onlyMobile} as='div'>
+                    <div className='grid-row'>
                         <Card className='member-card'>
                             <Image className='headshot' src={martin} />
                             <Card.Content className='member-card'>
                                 <Card.Header className='member-name'>Martin Zugschwert</Card.Header>
                             </Card.Content>
                         </Card>
+                    </div>
+                    <div className='grid-row'>
                         <Card className='member-card'>
                             <Image className='headshot' src={linette} />
                             <Card.Content className='member-card'>
                                 <Card.Header className='member-name'>Linette Maliakal</Card.Header>
                             </Card.Content>
                         </Card>
+                    </div>
+                    <div className='grid-row'>
                         <Card className='member-card'>
                             <Image className='headshot' src={makenna} />
                             <Card.Content className='member-card'>
                                 <Card.Header className='member-name'>Makenna Walsh</Card.Header>
                             </Card.Content>
                         </Card>
+                    </div>
+                    <div className='grid-row'>
                         <Card className='member-card'>
                             <Image className='headshot' src={jonathan} />
                             <Card.Content className='member-card'>
                                 <Card.Header className='member-name'>Jonathan Warkentin</Card.Header>
                             </Card.Content>
                         </Card>
+                    </div>
+                    <div className='grid-row'>
                         <Card className='member-card'>
                             <Image className='headshot' src={paulina} />
                             <Card.Content className='member-card'>
