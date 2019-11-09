@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Image, Card } from 'semantic-ui-react'
+import { Grid, Image, Card, Responsive } from 'semantic-ui-react'
 import './Exec.css'
 import lucas from '../img/Lucas.jpg'
 import martin from '../img/MartinZ.jpg'
