@@ -32,7 +32,6 @@ export default class Contact extends React.Component {
                 </Responsive>
                 <Responsive {...Responsive.onlyMobile} as='div' id='contact-grid'>
                     <h1 id='contact-title'>CONTACT US</h1>
-                    <br />
                     <div id='image-wrapper'>
                         <Image id='cs-award' src={csAward} />
                     </div>
