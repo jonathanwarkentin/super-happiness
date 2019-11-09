@@ -65,8 +65,8 @@ export default class Exec extends React.Component {
                     </Grid.Row>
                 </Responsive>
 
-                <Responsive {...Responsive.onlyMobile} as='div'>
-                    <div id='exec-div-mobile'>
+                <Responsive {...Responsive.onlyMobile} as='div' id='exec-div-mobile'>
+                    <div>
                         <Card className='member-card'>
                             <Image className='headshot' src={martin} />
                             <Card.Content className='member-card'>
