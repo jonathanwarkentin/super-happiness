@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82ff0eddbc4e0369b61bbc90375a7631",
+    "revision": "621462a9703df0c1ff727286c94c9393",
     "url": "/super-happiness/index.html"
   },
   {
-    "revision": "1b5b8c7fadf8d030f1d4",
+    "revision": "6524b82cc81b47d4d7e5",
     "url": "/super-happiness/static/css/2.235551b6.chunk.css"
   },
   {
-    "revision": "4bca24d709f2fdf0356e",
-    "url": "/super-happiness/static/css/main.02b70af7.chunk.css"
+    "revision": "f7898798098dd94d4f60",
+    "url": "/super-happiness/static/css/main.4334c07c.chunk.css"
   },
   {
-    "revision": "1b5b8c7fadf8d030f1d4",
-    "url": "/super-happiness/static/js/2.3a7ae541.chunk.js"
+    "revision": "6524b82cc81b47d4d7e5",
+    "url": "/super-happiness/static/js/2.f9a44ea3.chunk.js"
   },
   {
-    "revision": "4bca24d709f2fdf0356e",
-    "url": "/super-happiness/static/js/main.024676ef.chunk.js"
+    "revision": "f7898798098dd94d4f60",
+    "url": "/super-happiness/static/js/main.d38350c4.chunk.js"
   },
   {
     "revision": "ab052b6c90170dbeb4de",
