@@ -1,11 +1,9 @@
 import React from 'react';
 import { Grid, Image, Card, Responsive } from 'semantic-ui-react'
 import './Exec.css'
-import lucas from '../img/Lucas.jpg'
 import martin from '../img/MartinZ.jpg'
 import paulina from '../img/Paulina.jpg'
 import jonathan from '../img/Jonathan.jpg'
-import spencer from '../img/Spencer.jpg'
 import linette from '../img/Linette.jpg'
 import makenna from '../img/Makenna.jpg'
 
