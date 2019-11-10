@@ -127,7 +127,7 @@ export default class Events extends React.Component {
                                 </List.Item>
                         <br />
                         <List.Item className='meeting' meetingmonth="11" meetingdate="14">
-                            <i>Thursday, November 14, 2019 from 4:30-7 at slalom_build (200 East Randolph St)</i>
+                            <i>Thursday, November 14, 2019 from 4-7 at slalom_build (200 East Randolph St)</i>
                             <br />
                             Slalom Office Tour / Meet and Greet! Thanks to one of our alumni, we have another event opportunity coming up on November 14th for any Juniors or Seniors! Slalom Build has been gracious enough to invite us to their workspace. You can ask any questions you may have about a project you're working on, things you're learning, or about them! Up to 20 people can attend, so sign up as soon as you can. Also, there will be recruiters there at the beginning so definitely try to get there on time! The Office tour and Meet and Greet begins at 4PM and from 4:30 - 7:00PM are the Open House Office Hours.
                                 </List.Item>
