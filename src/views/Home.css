@@ -64,6 +64,14 @@ span {
 }
 
 @media (max-aspect-ratio: 1/1) {
+    #mobile-home-div {
+        margin-top: 30vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     #home-text {
         width: auto;
         height: auto;
@@ -90,10 +98,6 @@ span {
     #chicago {
         font-size: 12vw;
         line-height: 12vw;
-    }
-
-    #chicago-coding {
-        line-height: 10vw;
     }
 
     #coding {
