@@ -84,7 +84,7 @@ span {
     }
     #home-text {
         width: auto;
-        height: 80vh;
+        height: 70vh;
         display: flex;
         justify-content: start;
         overflow: hidden;
