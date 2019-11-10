@@ -15,11 +15,11 @@ export default class Home extends React.Component {
                     <span id='community'>COMMUNITY</span>
                 </Responsive>
                 <Responsive {...Responsive.onlyMobile} as='div' id='mobile-home-div'>
-                    <div>
+                    <div id='welcome-div'>
                         <span id='welcome-to'>WELCOME TO</span>
                         <br />
                     </div>
-                    <div>
+                    <div id='loyola-div'>
                         <span id='loyola'>LOYOLA</span>
                         <br />
                         <span id='university'>UNIVERSITY</span>
@@ -27,7 +27,7 @@ export default class Home extends React.Component {
                         <span id='chicago'>CHICAGO'S</span>
                         <br />
                     </div>
-                    <div>
+                    <div id='coding-div'>
                         <span id='coding'>CODING</span>
                         <br />
                         <span id='community'>COMMUNITY</span>

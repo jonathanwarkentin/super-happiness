@@ -65,17 +65,26 @@ span {
 
 @media (max-aspect-ratio: 1/1) {
     #mobile-home-div {
-        margin-top: auto;
-        margin-bottom: auto;
-        height: 45vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
     }
 
+    #welcome-div {
+        padding: 2vw;
+    }
+
+    #loyola-div {
+        padding: 2vw;
+    }
+
+    #coding-div {
+        padding: 2vw;
+    }
     #home-text {
         width: auto;
-        height: auto;
+        height: 80vh;
         display: flex;
         justify-content: start;
         overflow: hidden;
