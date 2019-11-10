@@ -90,15 +90,17 @@
   }
   
   /* Wrapper for item list */
-  /* .bm-item-list {
-    color: #b8b7ad;
-    padding: 0.8em;
-  } */
+  .bm-item-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   /* Individual item */
-  /* .bm-item {
-    display: inline-block;
-  } */
+  .bm-item {
+    padding: 5vw;
+  }
   
   /* Styling of overlay */
   .bm-overlay {
