@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e41d7496e062776ad9707b6a449eabe1",
+    "revision": "efaceb4f4b8070c16e33fa6bbecf9ed6",
     "url": "/super-happiness/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/super-happiness/static/css/2.235551b6.chunk.css"
   },
   {
-    "revision": "df2cad6b50008dd822dc",
-    "url": "/super-happiness/static/css/main.d0aefcbe.chunk.css"
+    "revision": "77d1e4cd729b4f32b951",
+    "url": "/super-happiness/static/css/main.7fdb1785.chunk.css"
   },
   {
     "revision": "92a0e24face4883b55c2",
     "url": "/super-happiness/static/js/2.236a541e.chunk.js"
   },
   {
-    "revision": "df2cad6b50008dd822dc",
+    "revision": "77d1e4cd729b4f32b951",
     "url": "/super-happiness/static/js/main.bba2ae9f.chunk.js"
   },
   {
