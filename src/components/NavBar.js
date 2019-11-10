@@ -47,7 +47,7 @@ class NavBar extends React.Component {
                 </Responsive>
                 <Responsive {...Responsive.onlyMobile} as='div' id='mobile-nav'>
                     <img id="logo" src={logo} alt="DON'T PANIC! Logo" />
-                    <Menu right isOpen={this.state.menuOpen}
+                    <Menu disableAutoFocus right isOpen={this.state.menuOpen}
                         onStateChange={(state) => this.handleStateChange(state)}>
                         <Link onClick={() => this.closeMenu()} className='nav-item' to="/">
                             HOME
