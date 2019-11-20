@@ -9,7 +9,7 @@ export default class About extends React.Component {
         return (
             <div id='about-div'>
                 <h1 id='about-title'>ABOUT</h1>
-                <Responsive minWidth={Responsive.onlyTablet.minWidth} as={Grid} id='about-grid'>
+                <Responsive minWidth={768} as={Grid} id='about-grid'>
                     <Grid.Row>
                         <Grid.Column id='text-column' width={8}>
                             <p className='about-text'>
@@ -21,7 +21,7 @@ export default class About extends React.Component {
                         </Grid.Column>
                     </Grid.Row>
                 </Responsive>
-                <Responsive {...Responsive.onlyMobile} as='div' id='about-div-mobile'>
+                <Responsive maxWidth={767} as='div' id='about-div-mobile'>
                     <Image src={googleEvent} />
                     <br />
                     <p className='about-text-mobile'>

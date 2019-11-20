@@ -7,7 +7,7 @@ export default class Contact extends React.Component {
     render() {
         return (
             <div id='contact-div'>
-                <Responsive as={Grid} minWidth={Responsive.onlyTablet.minWidth} id='contact-grid'>
+                <Responsive as={Grid} minWidth={768} id='contact-grid'>
                     <Grid.Row>
                         <Grid.Column id='image-column' width={8}>
                             <Image id='cs-award' src={csAward} />
@@ -30,7 +30,7 @@ export default class Contact extends React.Component {
                         </Grid.Column>
                     </Grid.Row>
                 </Responsive>
-                <Responsive {...Responsive.onlyMobile} as='div' id='contact-grid'>
+                <Responsive maxWidth={767} as='div' id='contact-grid'>
                     <h1 id='contact-title'>CONTACT US</h1>
                     <div id='image-wrapper'>
                         <Image id='cs-award' src={csAward} />

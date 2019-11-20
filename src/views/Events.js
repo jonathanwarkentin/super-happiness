@@ -27,7 +27,7 @@ export default class Events extends React.Component {
         return (
             <div>
                 <h1 id='events-title'>EVENTS</h1>
-                <Responsive as={Grid} minWidth={Responsive.onlyTablet.minWidth} id='events-grid'>
+                <Responsive as={Grid} minWidth={768} id='events-grid'>
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image src={hackathonGroup} />
@@ -86,7 +86,7 @@ export default class Events extends React.Component {
                         </Grid.Column>
                     </Grid.Row>
                 </Responsive>
-                <Responsive {...Responsive.onlyMobile} as='div'>
+                <Responsive maxWidth={767} as='div'>
                     <Image src={hackathonGroup} />
                     <br />
                     <List bulleted id="mobile-list">
