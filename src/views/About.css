@@ -22,15 +22,15 @@
 }
 
 .about-text {
-    font-size: 1.75em;
+    font-size: 1.5em;
 }
 
 .about-text-mobile {
     font-size: 1.25em;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+/* @media (min-width: 992px) and (max-width: 1199px) {
     .about-text {
         font-size: 1.5em;
     }
-}
+} */

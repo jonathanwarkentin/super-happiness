@@ -76,8 +76,8 @@ export default class Events extends React.Component {
                                     Slalom Office Tour / Meet and Greet! Thanks to one of our alumni, we have another event opportunity coming up on November 14th for any Juniors or Seniors! Slalom Build has been gracious enough to invite us to their workspace. You can ask any questions you may have about a project you're working on, things you're learning, or about them! Up to 20 people can attend, so sign up as soon as you can. Also, there will be recruiters there at the beginning so definitely try to get there on time! The Office tour and Meet and Greet begins at 4PM and from 4:30 - 7:00PM are the Open House Office Hours.
                                 </List.Item>
                                 <br />
-                                <List.Item className='meeting' meetingmonth="11" meetingdate="27">
-                                    <i>Wednesday, November 27, 2019 from 5-6 in Doyle Hall 001</i>
+                                <List.Item className='meeting' meetingmonth="12" meetingdate="4">
+                                    <i>Wednesday, December 4, 2019 from 5-6 in Doyle Hall 001</i>
                                     <br />
                                     End of the year celebration, e-board elections, and free stuff day! Food, drinks, and good times to send off the end of a good year. We are also giving away merch from our company partners as well as our own merch! Thank you all for a great and successful year!
                                 </List.Item>
@@ -132,8 +132,8 @@ export default class Events extends React.Component {
                             Slalom Office Tour / Meet and Greet! Thanks to one of our alumni, we have another event opportunity coming up on November 14th for any Juniors or Seniors! Slalom Build has been gracious enough to invite us to their workspace. You can ask any questions you may have about a project you're working on, things you're learning, or about them! Up to 20 people can attend, so sign up as soon as you can. Also, there will be recruiters there at the beginning so definitely try to get there on time! The Office tour and Meet and Greet begins at 4PM and from 4:30 - 7:00PM are the Open House Office Hours.
                                 </List.Item>
                         <br />
-                        <List.Item className='meeting' meetingmonth="11" meetingdate="27">
-                            <i>Wednesday, November 27, 2019 from 5-6 in Doyle Hall 001</i>
+                        <List.Item className='meeting' meetingmonth="12" meetingdate="4">
+                            <i>Wednesday, December 4, 2019 from 5-6 in Doyle Hall 001</i>
                             <br />
                             End of the year celebration, e-board elections, and free stuff day! Food, drinks, and good times to send off the end of a good year. We are also giving away merch from our company partners as well as our own merch! Thank you all for a great and successful year!
                                 </List.Item>
