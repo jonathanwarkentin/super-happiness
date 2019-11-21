@@ -74,7 +74,7 @@ span {
     #home-text {
         margin-top: 5vw;
         width: auto;
-        height: 45vh;
+        height: 100%;
         display: flex;
         justify-content: start;
         overflow: hidden;
