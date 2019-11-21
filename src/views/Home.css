@@ -63,7 +63,7 @@ span {
     float: right;
 }
 
-@media (max-width: 767) {
+@media (max-width: 767px) {
     #mobile-home-div {
         height: 100%;
         display: flex;

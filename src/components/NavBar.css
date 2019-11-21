@@ -22,7 +22,7 @@
     color: #555;
 }
 
-@media (max-width: 991) {
+@media (max-width: 767px) {
     #mobile-nav {
         height: 20vw;
         display: flex;

@@ -28,7 +28,7 @@ class NavBar extends React.Component {
     render() {
         return (
             <div>
-                <Responsive as='div' minWidth={992} id="nav-bar">
+                <Responsive as='div' minWidth={768} id="nav-bar">
                     <Link to="/">
                         <img id="logo" src={logo} alt="DON'T PANIC! Logo" />
                     </Link>
@@ -45,7 +45,7 @@ class NavBar extends React.Component {
                         CONTACT
                 </Link>
                 </Responsive>
-                <Responsive maxWidth={991} as='div' id='mobile-nav'>
+                <Responsive maxWidth={767} as='div' id='mobile-nav'>
                     <Link to="/">
                         <img id="logo" src={logo} alt="DON'T PANIC! Logo" />
                     </Link>

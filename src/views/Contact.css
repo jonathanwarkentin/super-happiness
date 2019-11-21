@@ -41,7 +41,7 @@
     margin-top: 2vh;
 }
 
-@media (max-width: 767) {
+@media (max-width: 767px) {
     #contact-title {
         float: left;
         line-height: normal;
