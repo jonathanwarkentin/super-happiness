@@ -25,7 +25,7 @@ const containerMobileStyle = {
 const Routes = () => {
     return (
         <div>
-            <Responsive minWidth={768} as={Container} style={containerStyle}>
+            <Responsive minWidth={992} as={Container} style={containerStyle}>
                 <NavBar />
                 <Switch id='switch'>
                     <Route exact path="/" component={Home} />
@@ -36,7 +36,7 @@ const Routes = () => {
                     <Route component={NotFound} />
                 </Switch>
             </Responsive>
-            <Responsive maxWidth={767} as={Container} style={containerMobileStyle}>
+            <Responsive maxWidth={991} as={Container} style={containerMobileStyle}>
                 <NavBar />
                 <Switch id='switch' style={containerMobileStyle}>
                     <Route exact path="/" component={Home} />

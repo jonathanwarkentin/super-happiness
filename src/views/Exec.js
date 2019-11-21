@@ -12,7 +12,7 @@ export default class Exec extends React.Component {
         return (
             <div id='exec-div'>
                 <h1 id='exec-title'>EXECUTIVE BOARD</h1>
-                <Responsive as={Grid} minWidth={768} id='exec-grid'>
+                <Responsive as={Grid} minWidth={992} id='exec-grid'>
                     <Grid.Row className='grid-row' columns={3}>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
@@ -63,7 +63,7 @@ export default class Exec extends React.Component {
                     </Grid.Row>
                 </Responsive>
 
-                <Responsive maxWidth={767} as='div'>
+                <Responsive maxWidth={991} as='div'>
                     <div className='grid-row'>
                         <Card className='member-card'>
                             <Image className='headshot' src={martin} />
