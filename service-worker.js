@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/super-happiness/precache-manifest.7e500c0ab3fb3dcf7fabc4c42febd7d9.js"
+  "/super-happiness/precache-manifest.5f12bcfd02e9c5e3143a0e3dc142fce2.js"
 );
 
 self.addEventListener('message', (event) => {
