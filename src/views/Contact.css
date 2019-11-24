@@ -47,6 +47,10 @@
         float: left;
         line-height: normal;
     }
+
+    #contact-grid {
+        margin-top: 0vh;
+    }
     
     #contact-text {
         float: left;
