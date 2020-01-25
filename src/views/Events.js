@@ -5,6 +5,114 @@ import hackathonGroup from '../img/hackathon-group.jpg'
 
 export default class Events extends React.Component {
     componentDidMount() {
+        const allEvents = [
+            {
+                loc: "Wednesday, January 22 from 7-8pm in Doyle Hall 001",
+                description: "Intro meeting. Say hello, get to know people. If you have no idea what is going on come to this and learn a bit about us!",
+                day: 22,
+                month: 1,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, January 29 from 7-8pm in Doyle Hall 001",
+                description: "Chill. A relaxed meeting where you can come and work on any computer science projects that you might want to, try your hand at a coding challenge or two, and most importantly spend some time with your peers!",
+                day: 29,
+                month: 1,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, February 5 from 7-8pm in Doyle Hall 001",
+                description: "What is Computer Science? At this event we will look at what careers lie under the broad term "Computer Science". From Cybersecurity to Data Science to Full Stack development, all of these fields are possible applications of a Computer Science degree. We will give an overview of what each field entails and a bit about how the roles generally work together in a company.",
+                day: 5,
+                month: 2,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, February 12 from 7-8pm in Doyle Hall 001",
+                description: "Chill. A relaxed meeting where you can come and work on any computer science projects that you might want to, try your hand at a coding challenge or two, and most importantly spend some time with your peers!",
+                day: 12,
+                month: 2,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, February 19 from 7-8pm in Doyle Hall 001",
+                description: "Resume Workshop. There will be a presentation (mostly taken from Google, so you know it is legit!) Followed by peer discussion regarding your own resume and what could be added or taken off.",
+                day: 19,
+                month: 2,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, February 26 from 7-8pm in Doyle Hall 001",
+                description: "Chill. A relaxed meeting where you can come and work on any computer science projects that you might want to, try your hand at a coding challenge or two, and most importantly spend some time with your peers!",
+                day: 26,
+                month: 2,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, March 4",
+                description: "SPRING BREAK! Go have fun!",
+                day: 4,
+                month: 3,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, March 11 from 7-8pm in Doyle Hall 001",
+                description: "Interview Workshop. Come try your hand at some technical interview questions to practice for your own future interviews! Open to all skill levels.",
+                day: 11,
+                month: 3,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, March 18 from 7-8pm in Doyle Hall 001",
+                description: "Chill. A relaxed meeting where you can come and work on any computer science projects that you might want to, try your hand at a coding challenge or two, and most importantly spend some time with your peers!",
+                day: 18,
+                month: 3,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, March 25",
+                description: "TBA",
+                day: 25,
+                month: 3,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, April 1",
+                description: "TBA",
+                day: 1,
+                month: 4,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, April 8",
+                description: "TBA",
+                day: 8,
+                month: 4,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, April 15",
+                description: "TBA",
+                day: 15,
+                month: 4,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, April 22",
+                description: "TBA",
+                day: 22,
+                month: 4,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, April 29",
+                description: "TBA",
+                day: 29,
+                month: 4,
+                year: 2020,
+            }
+        ]
+
         let meetings = document.getElementsByClassName("meeting");
 
         let today = new Date();
