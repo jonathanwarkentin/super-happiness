@@ -7,6 +7,62 @@ export default class Events extends React.Component {
     componentDidMount() {
         const allEvents = [
             {
+                loc: "Wednesday, September 4, 2019 from 5-6 in Doyle Hall 001",
+                description: "First meeting! This meeting will consist of introductions to the board, an overview of our planned and potential events for the semester, a brief introduction to Slack, and time to mingle and get to know one another with food!",
+                day: 4,
+                month: 9,
+                year: 2019,
+            },
+            {
+                loc: "Wednesday, September 18, 2019 from 5-6 in Doyle Hall 001",
+                description: "Resumes, resumes, resumes. This will be our resume meeting. There will be a presentation (mostly taken from Google, so you know it is legit!) Followed by peer discussion regarding your own resume and what could be added or taken off.",
+                day: 18,
+                month: 9,
+                year: 2019,
+            },
+            {
+                loc: "Thursday, October 3, 2019 from 12:30-2 in Merchandise Mart",
+                description: "Tour of 1871! We will meet in front of the Loyola station at 11:40, take the red line together from Loyola to Fullerton, transfer to the brown line, and ride that to the Merchandise Mart. From there, we will go up to 1871 and get a full tour! Space is limited to 15, so be sure to confirm that you want to go early!",
+                day: 3,
+                month: 10,
+                year: 2019,
+            },
+            {
+                loc: "Wednesday, October 16, 2019 from 5-6 in iManage Offices",
+                description: "Tour of iManage!",
+                day: 16,
+                month: 10,
+                year: 2020,
+            },
+            {
+                loc: "Wednesday, October 30, 2019 from 5-6 in Doyle Hall 001",
+                description: "No meeting! Go have fun! It’s Halloween! Spoooooky szn is upon us!",
+                day: 30,
+                month: 10,
+                year: 2019,
+            },
+            {
+                loc: "Wednesday, November 13, 2019 from 6:30-8:30 in Doyle Hall 001",
+                description: "Alumni Q and A! Join us in having a conversation with several DON'T PANIC! alumni about their experience in the industry, life after graduation and more!",
+                day: 13,
+                month: 11,
+                year: 2019,
+            },
+            {
+                loc: "Thursday, November 14, 2019 from 4:30-7 at slalom_build (200 East Randolph St)",
+                description: "Slalom Office Tour / Meet and Greet! Thanks to one of our alumni, we have another event opportunity coming up on November 14th for any Juniors or Seniors! Slalom Build has been gracious enough to invite us to their workspace. You can ask any questions you may have about a project you're working on, things you're learning, or about them! Up to 20 people can attend, so sign up as soon as you can. Also, there will be recruiters there at the beginning so definitely try to get there on time! The Office tour and Meet and Greet begins at 4PM and from 4:30 - 7:00PM are the Open House Office Hours.",
+                day: 14,
+                month: 11,
+                year: 2019,
+            },
+            {
+                loc: "Wednesday, December 4, 2019 from 5-6 in Doyle Hall 001",
+                description: "End of the year celebration, e-board elections, and free stuff day! Food, drinks, and good times to send off the end of a good year. We are also giving away merch from our company partners as well as our own merch! Thank you all for a great and successful year!",
+                day: 4,
+                month: 12,
+                year: 2019,
+            },
+            {
                 loc: "Wednesday, January 22 from 7-8pm in Doyle Hall 001",
                 description: "Intro meeting. Say hello, get to know people. If you have no idea what is going on come to this and learn a bit about us!",
                 day: 22,
