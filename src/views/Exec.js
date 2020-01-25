@@ -6,6 +6,8 @@ import paulina from '../img/Paulina.jpg'
 import jonathan from '../img/Jonathan.jpg'
 import linette from '../img/Linette.jpg'
 import makenna from '../img/Makenna.jpg'
+import sugar from '../img/sugar.jpg'
+import iqra from '../img/iqra.jpg'
 
 export default class Exec extends React.Component {
     render() {
@@ -13,7 +15,7 @@ export default class Exec extends React.Component {
             <div id='exec-div'>
                 <h1 id='exec-title'>EXECUTIVE BOARD</h1>
                 <Responsive as={Grid} minWidth={992} id='exec-grid'>
-                    <Grid.Row className='grid-row' columns={3}>
+                    <Grid.Row className='grid-row' columns={4}>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
                                 <Image className='headshot' src={martin} />
@@ -40,14 +42,29 @@ export default class Exec extends React.Component {
                                 </Card.Content>
                             </Card>
                         </Grid.Column>
+                        <Grid.Column className='board-member'>
+                            <Card className='member-card'>
+                                <Image className='headshot' src={sugar} />
+                                <Card.Content className='member-card'>
+                                    <Card.Header className='member-name'>Sugar Dashdavaa</Card.Header>
+                                </Card.Content>
+                            </Card>
+                        </Grid.Column>
                     </Grid.Row>
-                    <Grid.Row className='grid-row' columns={2}>
+                    <Grid.Row className='grid-row' columns={3}>
+                        <Grid.Column className='board-member'>
+                            <Card className='member-card'>
+                                <Image className='headshot' src={iqra} />
+                                <Card.Content className='member-card'>
+                                    <Card.Header className='member-name'>Iqra Rehman</Card.Header>
+                                </Card.Content>
+                            </Card>
+                        </Grid.Column>
                         <Grid.Column className='board-member'>
                             <Card className='member-card'>
                                 <Image className='headshot' src={jonathan} />
                                 <Card.Content className='member-card'>
                                     <Card.Header className='member-name'>Jonathan Warkentin</Card.Header>
-
                                 </Card.Content>
                             </Card>
                         </Grid.Column>
@@ -56,7 +73,6 @@ export default class Exec extends React.Component {
                                 <Image className='headshot' src={paulina} />
                                 <Card.Content className='member-card'>
                                     <Card.Header className='member-name'>Paulina Adamski</Card.Header>
-
                                 </Card.Content>
                             </Card>
                         </Grid.Column>
@@ -87,6 +103,24 @@ export default class Exec extends React.Component {
                             <Image className='headshot' src={makenna} />
                             <Card.Content className='member-card'>
                                 <Card.Header className='member-name'>Makenna Walsh</Card.Header>
+                            </Card.Content>
+                        </Card>
+                    </div>
+                    <br />
+                    <div className='grid-row'>
+                        <Card className='member-card'>
+                            <Image className='headshot' src={sugar} />
+                            <Card.Content className='member-card'>
+                                <Card.Header className='member-name'>Sugar Dashdavaa</Card.Header>
+                            </Card.Content>
+                        </Card>
+                    </div>
+                    <br />
+                    <div className='grid-row'>
+                        <Card className='member-card'>
+                            <Image className='headshot' src={iqra} />
+                            <Card.Content className='member-card'>
+                                <Card.Header className='member-name'>Iqra Rehman</Card.Header>
                             </Card.Content>
                         </Card>
                     </div>
