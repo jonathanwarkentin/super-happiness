@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "120c847c535f7c133ad339e1531f3993",
+    "revision": "26841eaf4d466be3823cc48066d29d44",
     "url": "/super-happiness/index.html"
   },
   {
-    "revision": "8e3fea2c0f4e815b7034",
+    "revision": "dfda412848f36b5ca846",
     "url": "/super-happiness/static/css/2.235551b6.chunk.css"
   },
   {
-    "revision": "a549081910f711361354",
-    "url": "/super-happiness/static/css/main.421bbed0.chunk.css"
+    "revision": "59a91830e5a35ac09aa8",
+    "url": "/super-happiness/static/css/main.58cd8e67.chunk.css"
   },
   {
-    "revision": "8e3fea2c0f4e815b7034",
-    "url": "/super-happiness/static/js/2.f74076c2.chunk.js"
+    "revision": "dfda412848f36b5ca846",
+    "url": "/super-happiness/static/js/2.0a50a1f0.chunk.js"
   },
   {
-    "revision": "a549081910f711361354",
-    "url": "/super-happiness/static/js/main.68382652.chunk.js"
+    "revision": "59a91830e5a35ac09aa8",
+    "url": "/super-happiness/static/js/main.39d0dfd3.chunk.js"
   },
   {
     "revision": "ab052b6c90170dbeb4de",
     "url": "/super-happiness/static/js/runtime~main.29546665.js"
   },
   {
-    "revision": "47415cda74f4ef5385019e3273186004",
-    "url": "/super-happiness/static/media/Jonathan.47415cda.jpg"
+    "revision": "c575d297bbd5ec059e861fcb009a54b6",
+    "url": "/super-happiness/static/media/Jonathan.c575d297.jpg"
   },
   {
     "revision": "2a2ba379239d9cab780760e005b39f3b",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/super-happiness/static/media/Makenna.82a4db6a.jpg"
   },
   {
-    "revision": "e66df52332042d5acf2ac5a232b81d18",
-    "url": "/super-happiness/static/media/MartinZ.e66df523.jpg"
+    "revision": "aedc4289ead9c4fe3b8b41f7107f27cc",
+    "url": "/super-happiness/static/media/MartinZ.aedc4289.jpg"
   },
   {
     "revision": "f040c955a4edb8a849b209b59aa36c9e",
@@ -100,6 +100,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/super-happiness/static/media/icons.faff9214.woff"
   },
   {
+    "revision": "3cf2f451f05485db5fb6157b609e75f1",
+    "url": "/super-happiness/static/media/iqra.3cf2f451.jpg"
+  },
+  {
     "revision": "3f4df2a922f52a2988d7426094b8bd39",
     "url": "/super-happiness/static/media/logo.3f4df2a9.png"
   },
@@ -122,5 +126,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/super-happiness/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "87049b20f69bddf4c8c769cc27e6fc4b",
+    "url": "/super-happiness/static/media/sugar.87049b20.jpg"
   }
 ]);
