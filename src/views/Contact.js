@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Image, Button, Form, TextArea, Responsive } from 'semantic-ui-react'
 import csAward from '../img/csaward.jpg'
+import slackLogo from '../img/slack-logo-edited.png'
 import './Contact.css'
 
 export default class Contact extends React.Component {
@@ -14,9 +15,11 @@ export default class Contact extends React.Component {
                         </Grid.Column>
                         <Grid.Column id='form-column' width={8}>
                             <h1 id='contact-title'>CONTACT US</h1>
-                            <p id='contact-text'>
-                                Are you looking for a place with CS folks that like to geek out, learn some CS, make friends, and be in a judgment free zone and a helpful environment? Look no further. Just fill in the form below and we'll get back to you ASAP.
-                            </p>
+                            <div id='contact-text'>
+                                <a target="_blank" id="join-slack-link" href="https://join.slack.com/t/dontpaniccs/signup"><Image id="slack-logo" src={slackLogo} /><span>Join our Slack!</span></a>
+                                <br />
+                                <p>Are you looking for a place with CS folks that like to geek out, learn some CS, make friends, and be in a judgment free zone and a helpful environment? Look no further. Just fill in the form below and we'll get back to you ASAP.</p>
+                            </div>
                             <Form id="form" action="https://formspree.io/dontpanic.luc@gmail.com" method="POST">
                                 <Form.Field required>
                                     <Form.Input name="name" type="text" placeholder='Name' />
@@ -36,6 +39,8 @@ export default class Contact extends React.Component {
                         <Image id='cs-award' src={csAward} />
                     </div>
                     <p id='contact-text'>
+                        <a target="_blank" id="join-slack-link" href="https://join.slack.com/t/dontpaniccs/signup"><Image id="slack-logo" src={slackLogo} /><span>Join our Slack!</span></a>
+                        <br />
                         Are you looking for a place with CS folks that like to geek out, learn some CS, make friends, and be in a judgment free zone and a helpful environment? Look no further. Just fill in the form below and we'll get back to you ASAP.
                     </p>
                     <Form id="form" action="https://formspree.io/dontpanic.luc@gmail.com" method="POST">

@@ -7,13 +7,29 @@
     margin-top: 3vh;
 }
 
+
+#slack-logo {
+    width: 1em;
+    height: 1em;
+    margin-right: .5em;
+}
+
+#join-slack-link {
+    display: inline-flex;
+    align-items: center;
+}
+
 #image-column {
     display: flex;
     justify-content: center;
 }
 
+#form {
+    height: 0px;
+}
+
 #form-column {
-    padding-left: 4vw;
+    padding-left: 4vw;  
 }
 
 #contact-title {
@@ -24,11 +40,12 @@
 }
 
 #contact-text {
-    margin-top: 1em;
+    margin-top: .5em;
     font-size: 1.5em;
     float: right;
     text-align: right;
     margin-bottom: 1.5em;
+    line-height: 1.5em;
 }
 
 #cs-award {
