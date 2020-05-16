@@ -234,14 +234,17 @@ export default class Events extends React.Component {
                         </Grid.Column>
                         <Grid.Column id='list-column' width={8}>
                             <h2>Upcoming</h2>
-                            <p>Room numbers subject to change weekly - check Slack!</p>
                             <List bulleted>
-                                {upcoming}
+                                {/* {upcoming} */}
+                                Check in again next semester for our upcoming events!
+                                <br />
+                                <br />
+                                Have a great summer!
                             </List>
-                            <h2>Past</h2>
+                            {/* <h2>Past</h2>
                             <List bulleted>
                                 {past}
-                            </List>
+                            </List> */}
                         </Grid.Column>
                     </Grid.Row>
                 </Responsive>
@@ -249,14 +252,17 @@ export default class Events extends React.Component {
                     <Image src={hackathonGroup} />
                     <br />
                     <h2>Upcoming</h2>
-                    <p>Room numbers subject to change weekly - check Slack!</p>
                     <List bulleted className="mobile-list">
-                        {upcoming}
+                        {/* {upcoming} */}
+                        Check in again next semester for our upcoming events!
+                        <br />
+                        <br />
+                        Have a great summer!
                     </List>
-                    <h2>Past</h2>
+                    {/* <h2>Past</h2>
                     <List bulleted className="mobile-list">
                         {past}
-                    </List>
+                    </List> */}
                     <br />
                 </Responsive>
             </div>
