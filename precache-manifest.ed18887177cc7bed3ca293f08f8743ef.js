@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90e7b43fd161822c8f05947d6f3bde0d",
+    "revision": "d949568af02f38c904ae168a90e5641c",
     "url": "/super-happiness/index.html"
   },
   {
-    "revision": "d49ef29258385ae3d92c",
+    "revision": "dfda412848f36b5ca846",
     "url": "/super-happiness/static/css/2.235551b6.chunk.css"
   },
   {
-    "revision": "c11fcbdff357118bc7c8",
-    "url": "/super-happiness/static/css/main.62f86bd7.chunk.css"
+    "revision": "9503ef8068834a5403e8",
+    "url": "/super-happiness/static/css/main.bb852224.chunk.css"
   },
   {
-    "revision": "d49ef29258385ae3d92c",
-    "url": "/super-happiness/static/js/2.e14a98c5.chunk.js"
+    "revision": "dfda412848f36b5ca846",
+    "url": "/super-happiness/static/js/2.0a50a1f0.chunk.js"
   },
   {
-    "revision": "c11fcbdff357118bc7c8",
-    "url": "/super-happiness/static/js/main.f062291d.chunk.js"
+    "revision": "9503ef8068834a5403e8",
+    "url": "/super-happiness/static/js/main.c5a6754f.chunk.js"
   },
   {
     "revision": "ab052b6c90170dbeb4de",
@@ -122,6 +122,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/super-happiness/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "f755c722c043077ce1f9e6dd5b91326d",
+    "url": "/super-happiness/static/media/slack-logo-edited.f755c722.png"
   },
   {
     "revision": "87049b20f69bddf4c8c769cc27e6fc4b",

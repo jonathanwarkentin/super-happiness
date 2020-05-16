@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/super-happiness/static/css/main.62f86bd7.chunk.css",
-    "main.js": "/super-happiness/static/js/main.f062291d.chunk.js",
-    "main.js.map": "/super-happiness/static/js/main.f062291d.chunk.js.map",
+    "main.css": "/super-happiness/static/css/main.bb852224.chunk.css",
+    "main.js": "/super-happiness/static/js/main.c5a6754f.chunk.js",
+    "main.js.map": "/super-happiness/static/js/main.c5a6754f.chunk.js.map",
     "runtime~main.js": "/super-happiness/static/js/runtime~main.29546665.js",
     "runtime~main.js.map": "/super-happiness/static/js/runtime~main.29546665.js.map",
     "static/css/2.235551b6.chunk.css": "/super-happiness/static/css/2.235551b6.chunk.css",
-    "static/js/2.e14a98c5.chunk.js": "/super-happiness/static/js/2.e14a98c5.chunk.js",
-    "static/js/2.e14a98c5.chunk.js.map": "/super-happiness/static/js/2.e14a98c5.chunk.js.map",
+    "static/js/2.0a50a1f0.chunk.js": "/super-happiness/static/js/2.0a50a1f0.chunk.js",
+    "static/js/2.0a50a1f0.chunk.js.map": "/super-happiness/static/js/2.0a50a1f0.chunk.js.map",
     "index.html": "/super-happiness/index.html",
-    "precache-manifest.afdd9f0b3d5a611c360837d8f6e1b39b.js": "/super-happiness/precache-manifest.afdd9f0b3d5a611c360837d8f6e1b39b.js",
+    "precache-manifest.ed18887177cc7bed3ca293f08f8743ef.js": "/super-happiness/precache-manifest.ed18887177cc7bed3ca293f08f8743ef.js",
     "service-worker.js": "/super-happiness/service-worker.js",
     "static/css/2.235551b6.chunk.css.map": "/super-happiness/static/css/2.235551b6.chunk.css.map",
-    "static/css/main.62f86bd7.chunk.css.map": "/super-happiness/static/css/main.62f86bd7.chunk.css.map",
+    "static/css/main.bb852224.chunk.css.map": "/super-happiness/static/css/main.bb852224.chunk.css.map",
     "static/media/Jonathan.jpg": "/super-happiness/static/media/Jonathan.c575d297.jpg",
     "static/media/Linette.jpg": "/super-happiness/static/media/Linette.2a2ba379.jpg",
     "static/media/Makenna.jpg": "/super-happiness/static/media/Makenna.82a4db6a.jpg",
@@ -23,6 +23,7 @@
     "static/media/hackathon-group.jpg": "/super-happiness/static/media/hackathon-group.d531123e.jpg",
     "static/media/iqra.jpg": "/super-happiness/static/media/iqra.3cf2f451.jpg",
     "static/media/logo.png": "/super-happiness/static/media/logo.3f4df2a9.png",
+    "static/media/slack-logo-edited.png": "/super-happiness/static/media/slack-logo-edited.f755c722.png",
     "static/media/sugar.jpg": "/super-happiness/static/media/sugar.87049b20.jpg"
   }
 }
